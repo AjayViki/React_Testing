@@ -57,7 +57,8 @@
     }
   },
   "devDependencies": {
-    "msw": "^2.12.1",
+    "jest": "^27.5.1",
+    "msw": "^1.2.1",
     "web-streams-polyfill": "^4.2.0"
   },
   "msw": {
