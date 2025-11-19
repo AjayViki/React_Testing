@@ -12,8 +12,8 @@ function App() {
     <AppProviders>
       <div className="App">
         {/* <Skills skills={skills} /> */}
-        {/* <Counter /> */}
-        <MuiMode />
+        <Counter />
+        {/* <MuiMode /> */}
       </div>
     </AppProviders>
   );
