@@ -5,6 +5,7 @@ import Skills from "./components/greet/skill/skill";
 import Counter from "./components/greet/counter/counter";
 import { AppProviders } from "./components/greet/providers/app-providers";
 import { MuiMode } from "./components/mui/mui-mode";
+import { Form } from "./components/form/form";
 
 function App() {
   const skills = ["HTML", "CSS"];
@@ -12,8 +13,9 @@ function App() {
     <AppProviders>
       <div className="App">
         {/* <Skills skills={skills} /> */}
-        <Counter />
+        {/* <Counter /> */}
         {/* <MuiMode /> */}
+        <Form />
       </div>
     </AppProviders>
   );
